@@ -1,0 +1,21 @@
+; ----------------------------------------------------------------------
+; PARSING Computer POLICY
+; Source file:  registry.pol
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\Personalization
+NoLockScreenCamera
+DWORD:1
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\Personalization
+NoLockScreenSlideshow
+DWORD:1
+
+Computer
+SOFTWARE\Policies\Microsoft\InputPersonalization
+AllowInputPersonalization
+DWORD:0
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------

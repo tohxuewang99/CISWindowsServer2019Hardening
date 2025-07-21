@@ -1,0 +1,78 @@
+; ----------------------------------------------------------------------
+; PARSING Computer POLICY
+; Source file:  registry.pol
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows NT\DNSClient
+EnableNetbios
+DWORD:1
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows NT\DNSClient
+EnableMulticast
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\System
+EnableFontProviders
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation
+AllowInsecureGuestAuth
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+AllowLLTDIOOnDomain
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+AllowLLTDIOOnPublicNet
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+EnableLLTDIO
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+ProhibitLLTDIOOnPrivateNet
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+AllowRspndrOnDomain
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+AllowRspndrOnPublicNet
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+EnableRspndr
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\LLTD
+ProhibitRspndrOnPrivateNet
+DWORD:0
+
+Computer
+SOFTWARE\Policies\Microsoft\Peernet
+Disabled
+DWORD:1
+
+Computer
+SOFTWARE\Policies\Microsoft\Windows\Network Connections
+NC_AllowNetBridge_NLA
+DWORD:0
+
+
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------

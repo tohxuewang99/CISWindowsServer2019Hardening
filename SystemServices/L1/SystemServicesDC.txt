@@ -1,0 +1,12 @@
+; ----------------------------------------------------------------------
+; PARSING Computer POLICY
+; Source file:  registry.pol
+
+Computer
+SYSTEM\CurrentControlSet\Services\Spooler
+Start
+DWORD:4
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------
+

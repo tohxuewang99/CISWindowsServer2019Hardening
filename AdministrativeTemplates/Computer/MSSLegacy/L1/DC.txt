@@ -1,0 +1,46 @@
+; ----------------------------------------------------------------------
+; PARSING Computer POLICY
+; Source file:  registry.pol
+
+Computer
+SYSTEM\CurrentControlSet\Control\Print
+RpcAuthnLevelPrivacyEnabled
+DWORD:1
+
+Computer
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+AutoAdminLogon
+SZ:0
+
+Computer
+SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters
+DisableIPSourceRouting
+DWORD:2
+
+Computer
+SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+EnableICMPRedirect
+DWORD:0
+
+Computer
+SYSTEM\CurrentControlSet\Services\NetBT\Parameters
+NoNameReleaseOnDemand
+DWORD:1
+
+Computer
+SYSTEM\CurrentControlSet\Control\Session Manager
+SafeDllSearchMode
+DWORD:1
+
+Computer
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+ScreenSaverGracePeriod
+SZ:5
+
+Computer
+SYSTEM\CurrentControlSet\Services\Eventlog\Security
+WarningLevel
+DWORD:90
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------

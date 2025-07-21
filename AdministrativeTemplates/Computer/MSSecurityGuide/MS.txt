@@ -1,0 +1,51 @@
+; ----------------------------------------------------------------------
+; PARSING Computer POLICY
+; Source file:  registry.pol
+
+Computer
+SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+LocalAccountTokenFilterPolicy
+DWORD:0
+
+Computer
+SYSTEM\CurrentControlSet\Control\Print
+RpcAuthnLevelPrivacyEnabled
+DWORD:1
+
+Computer
+SYSTEM\CurrentControlSet\Services\mrxsmb10
+Start
+DWORD:4
+
+Computer
+SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters
+SMB1
+DWORD:0
+
+Computer
+SOFTWARE\Microsoft\Cryptography\Wintrust\Config
+EnableCertPaddingCheck
+DWORD:1
+
+Computer
+SYSTEM\CurrentControlSet\Control\Session Manager\kernel
+DisableExceptionChainValidation
+DWORD:0
+
+Computer
+SYSTEM\CurrentControlSet\Control\Lsa
+RunAsPPL
+DWORD:1
+
+Computer
+SYSTEM\CurrentControlSet\Services\NetBT\Parameters
+NodeType
+DWORD:2
+
+Computer
+SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest
+UseLogonCredential
+DWORD:0
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------
